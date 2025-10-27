@@ -1,16 +1,6 @@
-putting some random things in the top here :) 
-# connection strings 
-postgres://github1:test@xa3ba6m6aeb6q.FAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app:5432/postmalone
-
 # environment variables 
 PGHOST="xa3ba6miaawdh6aeb6q.FAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-1.aws.postgres.snowflake.app"
 PGDATABASE="aboogiewiththehoodie"  # database name 
 PGUSER="mmawla_test"
 PGPORT="5432" # adding in random comments 
 PGPASSWORD="test"
-
-# yaml files 
-host: "xa3ba6vawdh6aeb6q.FAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-2.aws.postgres.snowflake.app"
-database: "postmaloneisfire"
-username: "mmawlatest"
-password: "test"
