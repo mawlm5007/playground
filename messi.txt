@@ -4,37 +4,37 @@ postgres://github1:test@xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisba
 
 # environment variables 
 PGHOST="xa3ba6miaawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-1.aws.postgres.snowflake.app"
-PGDATABASE="postgres"  # database name 
-PGUSER="mmawla_test"
+PGDATABASE="env"  # database name 
+PGUSER="env_user"
 PGPORT="5432" # adding in random comments 
-PGPASSWORD="test"
+PGPASSWORD="env_password"
 
 # yaml files 
 host: "xa3ba6vawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-2.aws.postgres.snowflake.app"
-database: "postgres"
-username: "mmawla_test"
-password: "test"
+database: "yaml"
+username: "yaml_username"
+password: "yaml_password"
 
 # java
-final String url = "jdbc:postgres://<clusterID>.<orgName>-‹alias>.‹deployment>.<cspRegion>.<csp>.postgres.snowflake.app:5432/postmalone";
+final String url = "jdbc:postgres://xa3ba6vawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-2.aws.postgres.snowflake.app:5432/postmalone";
 final Properties props = new Properties ();
-props.setProperty("user", "icpostgresql");
-props.setProperty("password", "password");
+props.setProperty("user", "java_user");
+props.setProperty("password", "java_password");
 
 
 # python 
 db_config = {
-  "database": "your _database"
-  "user": "your_username"
-  "password": "your_password", -
+  "database": "python1"
+  "user": "python1_user"
+  "password": "python1_password",
   "host": "xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app:5432/postmalone"
-  "port": "your_port"
+  "port": "python1_port"
 }
 
 conn=psycopg2.connect(
-  database="your_database",
-  user="your_username",
-  password="your_password",
+  database="python2",
+  user="python2_user",
+  password="python2_password",
   host="xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6. canada-west-2.aws.postgres.snowflake.app",
-  port="your_port"
+  port="python2_port"
 )
