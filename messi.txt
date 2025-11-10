@@ -14,3 +14,27 @@ host: "xa3ba6vawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.
 database: "postgres"
 username: "mmawla_test"
 password: "test"
+
+# java
+final String url = "jdbc:postgres://<clusterID>.<orgName>-‹alias>.‹deployment>.<cspRegion>.<csp>.postgres.snowflake.app:5432/postmalone";
+final Properties props = new Properties ();
+props.setProperty("user", "icpostgresql");
+props.setProperty("password", "password");
+
+
+# python 
+db_config = {
+  "database": "your _database"
+  "user": "your_username"
+  "password": "your_password", -
+  "host": "xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app:5432/postmalone"
+  "port": "your_port"
+}
+
+conn=psycopg2.connect(
+  database="your_database",
+  user="your_username",
+  password="your_password",
+  host="xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6. canada-west-2.aws.postgres.snowflake.app",
+  port="your_port"
+)
