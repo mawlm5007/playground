@@ -35,6 +35,6 @@ conn=psycopg2.connect(
   database="python2",
   user="python2_user",
   password="python2_password",
-  host="xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6. canada-west-2.aws.postgres.snowflake.app",
+  host="xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app",
   port="python2_port"
 )
