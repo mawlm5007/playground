@@ -9,6 +9,19 @@ PGUSER="env_user"
 PGPORT="5432" # adding in random comments 
 PGPASSWORD="env_password"
 
+PGHOST="xa3ba6miaawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-1.aws.postgres.snowflake.app"
+PGDATABASE="env_2"  # database name 
+PGUSER="env_user_2"
+PGPORT="5432" # adding in random comments 
+PGPASSWORD="env_password_2"
+
+# duplicate variables 
+PGHOST="xa3ba6miaawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-1.aws.postgres.snowflake.app"
+PGDATABASE="env"  # database name 
+PGUSER="env_user"
+PGPORT="5432" # adding in random comments 
+PGPASSWORD="env_password"
+
 # yaml files 
 host: "xa3ba6vawdh6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.us-canada-2.aws.postgres.snowflake.app"
 database: "yaml"
@@ -38,3 +51,12 @@ conn=psycopg2.connect(
   host="xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app",
   port="python2_port"
 )
+
+# duplicate credential  
+db_config = {
+  "database": "python1"
+  "user": "python1_user"
+  "password": "python1_password",
+  "host": "xa3ba6m6aeb6q.sfFAKEengineering-antiRonaldoFan-abuseisbad-sandcastle.qa6.canada-west-2.aws.postgres.snowflake.app:5432/postmalone"
+  "port": "python1_port"
+}
